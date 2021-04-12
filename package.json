@@ -1,0 +1,39 @@
+{
+  "name": "@mybricks/rocker-ioc",
+  "version": "0.0.1",
+  "description": "A lightweight ioc container for JS.",
+  "author": "CheMingjun",
+  "scripts": {
+    "build": "npm run clean && (tsc || true)",
+    "clean": "rimraf *.js ./src/**/*.js  ./test/**/*.js",
+    "start": "tsc -w"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "rewire": "^3.0.2",
+    "rimraf": "^2.6.2",
+    "typescript": "^4.2.3"
+  },
+  "keywords": [
+    "ioc",
+    "di",
+    "javascript",
+    "typescript",
+    "node",
+    "dependency injection",
+    "dependency inversion",
+    "inversion of control container"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.hellobike.cn/Power/rocker/rocker"
+  },
+  "license": "MIT",
+  "directories": {
+    "doc": "doc"
+  },
+  "main": "./index.js"
+}

@@ -1,0 +1,9 @@
+.git/
+.idea/
+.DS_Store
+node_modules/*
+tags/*
+.history
+.vscode/
+.nyc_output/
+coverage/
