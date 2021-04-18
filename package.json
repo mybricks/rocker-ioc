@@ -1,6 +1,6 @@
 {
   "name": "@mybricks/rocker-ioc",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A lightweight ioc container for JS.",
   "author": "CheMingjun",
   "scripts": {
@@ -12,10 +12,10 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "@types/node": "^13.9.0",
+    "@types/node": "^7.0.60",
     "rewire": "^3.0.2",
     "rimraf": "^2.6.2",
-    "typescript": "^4.2.3"
+    "typescript": "^3.8.3"
   },
   "keywords": [
     "ioc",
